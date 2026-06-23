@@ -45,11 +45,11 @@ forge-gym/
 ├── .nojekyll                # Tells GitHub Pages to skip Jekyll processing
 ├── README.md
 └── assets/
-    ├── css/
-    │   └── style.css       # All styles (design tokens, layout, components)
-    ├── js/
-    │   └── script.js       # All interactivity (vanilla JS, no dependencies)
-    └── images/             # (optional) local image assets if you replace the placeholders
+├── css/
+│   └── style.css       # All styles (design tokens, layout, components)
+├── js/
+│   └── script.js       # All interactivity (vanilla JS, no dependencies)
+└── images/             # (optional) local image assets if you replace the placeholders
 ```
 
 All five HTML pages share the same `assets/css/style.css` and `assets/js/script.js`, so you only maintain styles and logic in one place.
