@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Equipment Catalog | FORGE Strength &amp; Conditioning</title>
+  <meta name="description" content="Browse FORGE gym's full equipment catalog — treadmills, squat racks, cable machines, dumbbells, and more. Search by name or muscle group.">
+  <meta name="keywords" content="gym equipment, treadmill, squat rack, cable machine, dumbbells, kettlebells, gym machines">
+  <link rel="canonical" href="https://example.com/equipment.html">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0a0a'/%3E%3Crect x='10' y='10' width='12' height='12' fill='%23ff3d1a'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <nav class="navbar" aria-label="Primary navigation">
+      <div class="container">
+        <a href="index.html" class="brand" aria-label="FORGE home">
+          <span class="brand-mark" aria-hidden="true"></span>FOR<span>GE</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a href="equipment.html" aria-current="page">Equipment</a></li>
+          <li><a href="exercises.html">Exercises</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="theme-toggle" type="button" aria-label="Toggle dark and light theme">
+            <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          </button>
+          <a href="membership.html" class="btn btn-primary btn-sm">Join Now</a>
+          <button class="hamburger" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span><span></span></button>
+        </div>
+      </div>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="equipment.html">Equipment</a></li>
+        <li><a href="exercises.html">Exercises</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="membership.html" class="btn btn-primary btn-block">Join Now</a>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-header">
+      <div class="container">
+        <p class="eyebrow">Equipment Catalog</p>
+        <h1>Everything You Need to Train</h1>
+        <div class="heat-bar" aria-hidden="true"></div>
+        <p>Search our full equipment lineup by name or target muscle group.</p>
+      </div>
+    </section>
+
+    <section aria-labelledby="catalog-heading">
+      <div class="container">
+        <h2 id="catalog-heading" class="sr-only">Equipment List</h2>
+
+        <div class="toolbar">
+          <div class="search-input">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+            <label for="equipment-search" class="sr-only">Search equipment</label>
+            <input type="text" id="equipment-search" placeholder="Search by name or muscle group (e.g. legs, treadmill)..." autocomplete="off">
+          </div>
+        </div>
+
+        <div class="equip-grid">
+
+          <article class="equip-card card reveal" data-name="Treadmill" data-muscles="cardio legs calves">
+            <div class="equip-media"><img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=600&auto=format&fit=crop" alt="Treadmill" loading="lazy" width="600" height="450"></div>
+            <div class="equip-body">
+              <h3>Treadmill</h3>
+              <p>Commercial-grade running deck with adjustable speed and incline for cardio training of any intensity.</p>
+              <div class="muscle-tags"><span class="tag tag-ember">Cardio</span><span class="tag">Legs</span><span class="tag">Calves</span></div>
+            </div>
+          </article>
+
+          <article class="equip-card card reveal" data-name="Exercise Bike" data-muscles="cardio legs quads">
+            <div class="equip-media"><img src="https://images.unsplash.com/photo-1591291621164-2c6367723315?q=80&w=600&auto=format&fit=crop" alt="Exercise bike" loading="lazy" width="600" height="450"></div>
+            <div class="equip-body">
+              <h3>Exercise Bike</h3>
+              <p>Low-impact cardio machine ideal for endurance building and active recovery sessions.</p>
+              <div class="muscle-tags"><span class="tag tag-ember">Cardio</span><span class="tag">Quads</span></div>
+            </div>
+          </article>
+
+          <article class="equip-card card reveal" data-name="Elliptical Trainer" data-muscles="cardio full body legs arms">
+            <div class="equip-media"><img src="https://images.unsplash.com/photo-1576678927484-cc907957088c?q=80&w=600&auto=format&fit=crop" alt="Elliptical trainer" loading="lazy" width="600" height="450"></div>
+            <div class="equip-body">
+              <h3>Elliptical Trainer</h3>
+              <p>Full-body, joint-friendly cardio machine that combines upper and lower body movement.</p>
+              <div class="muscle-tags"><span class="tag tag-ember">Cardio</span><span class="tag">Full Body</span></div>
+            </div>
+          </article>
+
+          <article class="equip-card card reveal" data-name="Bench Press" data-muscles="chest shoulders triceps">
+            <div class="equip-media"><img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=600&auto=format&fit=crop" alt="Bench press station" loading="lazy" width="600" height="450"></div>
+            <div class="equip-body">
+              <h3>Bench Press</h3>
+              <p>Flat bench with barbell rack — the foundation movement for building upper-body pressing strength.</p>
+              <div class="muscle-tags"><span class="tag tag-ember">Chest</span><span class="tag">Shoulders</span><span class="tag">Triceps</span></div>
+            </div>
+          </article>
+
+          <article class="equip-card card reveal" data-name="Smith Machine" data-muscles="chest legs shoulders back">
+            <div class="equip-media"><img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=600&auto=format&fit=crop" alt="Smith machine" loading="lazy" width="600" height="450"></div>
+            <div class="equip-body">
+              <h3>Smith Machine</h3>
+              <p>Guided barbell on fixed rails — a safer way to train squats, presses, and lunges with heavy loads.</p>
+              <div class="muscle-tags"><span class="tag tag-ember">Legs</span><span class="tag">Chest</span><span class="tag">Back</span></div>
+            </div>
+          </article>
+
+          <article class="equip-card card reveal" data-name="Squat Rack" data-muscles="legs glutes core back">
+            <div class="equip-media"><img src="https://images.unsplash.com/photo-1591291621164-2c6367723315?q=80&w=600&auto=format&fit=crop" alt="Squat rack" loading="lazy" width="600" height="450"></div>
+            <div class="equip-body">
+              <h3>Squat Rack</h3>
+              <p>Heavy-duty rack with adjustable safety bars built for free-weight squats and overhead presses.</p>
+              <div class="muscle-tags"><span class="tag tag-ember">Legs</span><span class="tag">Glutes</span><span class="tag">Core</span></div>
+            </div>
+          </article>
+
+          <article class="equip-card card reveal" data-name="Leg Press" data-muscles="quads glutes hamstrings">
+            <div class="equip-media"><img src="https://images.unsplash.com/photo-1652361555624-528df96fbd0c?q=80&w=600&auto=format&fit=crop" alt="Leg press machine" loading="lazy" width="600" height="450"></div>
+            <div class="equip-body">
+              <h3>Leg Press</h3>
+              <p>Plate-loaded machine for safely overloading the legs without the balance demands of free squats.</p>
+              <div class="muscle-tags"><span class="tag tag-ember">Quads</span><span class="tag">Glutes</span><span class="tag">Hamstrings</span></div>
+            </div>
+          </article>
+
+          <article class="equip-card card reveal" data-name="Cable Machine" data-muscles="back arms shoulders chest">
+            <div class="equip-media"><img src="https://images.unsplash.com/photo-1622599516314-7d6d922f5b25?q=80&w=600&auto=format&fit=crop" alt="Cable machine station" loading="lazy" width="600" height="450"></div>
+            <div class="equip-body">
+              <h3>Cable Machine</h3>
+              <p>Dual-pulley station for accessory lifts, rows, pull-downs, and functional resistance training.</p>
+              <div class="muscle-tags"><span class="tag tag-ember">Back</span><span class="tag">Arms</span><span class="tag">Shoulders</span></div>
+            </div>
+          </article>
+
+          <article class="equip-card card reveal" data-name="Dumbbells" data-muscles="full body arms shoulders chest">
+            <div class="equip-media"><img src="https://images.unsplash.com/photo-1638536532686-d610adfc8e5c?q=80&w=600&auto=format&fit=crop" alt="Dumbbell rack" loading="lazy" width="600" height="450"></div>
+            <div class="equip-body">
+              <h3>Dumbbells</h3>
+              <p>Full range from 2.5kg to 50kg for unilateral training, isolation work, and free-weight compounds.</p>
+              <div class="muscle-tags"><span class="tag tag-ember">Full Body</span><span class="tag">Arms</span></div>
+            </div>
+          </article>
+
+          <article class="equip-card card reveal" data-name="Kettlebells" data-muscles="full body core glutes shoulders">
+            <div class="equip-media"><img src="https://images.unsplash.com/photo-1517344884509-a0c97ec11bcc?q=80&w=600&auto=format&fit=crop" alt="Kettlebells" loading="lazy" width="600" height="450"></div>
+            <div class="equip-body">
+              <h3>Kettlebells</h3>
+              <p>Versatile cast-iron weights for swings, cleans, and functional full-body conditioning circuits.</p>
+              <div class="muscle-tags"><span class="tag tag-ember">Core</span><span class="tag">Glutes</span><span class="tag">Full Body</span></div>
+            </div>
+          </article>
+
+          <article class="equip-card card reveal" data-name="Pull-up Station" data-muscles="back biceps core shoulders">
+            <div class="equip-media"><img src="https://images.unsplash.com/photo-1598971639058-fab3c3109a00?q=80&w=600&auto=format&fit=crop" alt="Pull-up station" loading="lazy" width="600" height="450"></div>
+            <div class="equip-body">
+              <h3>Pull-up Station</h3>
+              <p>Multi-grip bar setup for pull-ups, chin-ups, and hanging core work to build upper-body width.</p>
+              <div class="muscle-tags"><span class="tag tag-ember">Back</span><span class="tag">Biceps</span><span class="tag">Core</span></div>
+            </div>
+          </article>
+
+          <article class="equip-card card reveal" data-name="Rowing Machine" data-muscles="back legs cardio full body">
+            <div class="equip-media"><img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=600&auto=format&fit=crop" alt="Rowing machine" loading="lazy" width="600" height="450"></div>
+            <div class="equip-body">
+              <h3>Rowing Machine</h3>
+              <p>Low-impact cardio and pulling movement that trains the back, legs, and core in one motion.</p>
+              <div class="muscle-tags"><span class="tag tag-ember">Back</span><span class="tag">Cardio</span><span class="tag">Legs</span></div>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="no-results" id="equipment-no-results">No equipment matches your search. Try a different term like "legs" or "cable".</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand"><span class="brand-mark" aria-hidden="true"></span>FOR<span>GE</span></a>
+          <p>A premium strength &amp; conditioning gym built for people who take their training seriously.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="equipment.html">Equipment</a></li>
+            <li><a href="exercises.html">Exercises</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Gym</h4>
+          <ul>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="membership.html#plans">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 FORGE Strength &amp; Conditioning. All rights reserved.</p>
+        <p>Built with HTML, CSS &amp; vanilla JS.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
